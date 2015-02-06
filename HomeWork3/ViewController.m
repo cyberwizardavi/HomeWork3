@@ -54,15 +54,6 @@
     else
         self.removeButton.enabled = NO;
     
-    if (self.checkDuplicate.integerValue == 0) {
-        if ([self.todoItems containsObject:self.theTextBox.stringValue]) {
-            self.addButton.enabled = NO;
-        }
-    }
-    else
-       self.addButton.enabled = YES;
-    
-
     
 }
 
@@ -111,6 +102,11 @@
 
 - (IBAction)duplicateCheck:(id)sender {
     
+    if(self.checkDuplicate.integerValue == 0){
+         self.addButton.enabled = NO;
+    }
+    else
+        self.addButton.enabled = YES;
        
 }
 
