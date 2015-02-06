@@ -1,8 +1,7 @@
 //
 //  AppDelegate.m
 //  HomeWork3
-//
-//  Created by IOweKeren on 2/5/15.
+
 //  Copyright (c) 2015 Avishek. All rights reserved.
 //
 

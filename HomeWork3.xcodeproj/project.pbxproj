@@ -13,6 +13,8 @@
 		52BA03401A838FFB00EF02BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BA033F1A838FFB00EF02BB /* Images.xcassets */; };
 		52BA03431A838FFB00EF02BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BA03411A838FFB00EF02BB /* Main.storyboard */; };
 		52BA034F1A838FFB00EF02BB /* HomeWork3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BA034E1A838FFB00EF02BB /* HomeWork3Tests.m */; };
+		52BA035A1A8413E600EF02BB /* ToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BA03591A8413E600EF02BB /* ToDoList.m */; };
+		52BA035D1A84143200EF02BB /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BA035C1A84143200EF02BB /* ToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		52BA03481A838FFB00EF02BB /* HomeWork3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeWork3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BA034D1A838FFB00EF02BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52BA034E1A838FFB00EF02BB /* HomeWork3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWork3Tests.m; sourceTree = "<group>"; };
+		52BA03581A8413E600EF02BB /* ToDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoList.h; sourceTree = "<group>"; };
+		52BA03591A8413E600EF02BB /* ToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoList.m; sourceTree = "<group>"; };
+		52BA035B1A84143200EF02BB /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		52BA035C1A84143200EF02BB /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				52BA033F1A838FFB00EF02BB /* Images.xcassets */,
 				52BA03411A838FFB00EF02BB /* Main.storyboard */,
 				52BA03351A838FFB00EF02BB /* Supporting Files */,
+				52BA03581A8413E600EF02BB /* ToDoList.h */,
+				52BA03591A8413E600EF02BB /* ToDoList.m */,
+				52BA035B1A84143200EF02BB /* ToDoItem.h */,
+				52BA035C1A84143200EF02BB /* ToDoItem.m */,
 			);
 			path = HomeWork3;
 			sourceTree = "<group>";
@@ -216,8 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BA033E1A838FFB00EF02BB /* ViewController.m in Sources */,
+				52BA035D1A84143200EF02BB /* ToDoItem.m in Sources */,
 				52BA033B1A838FFB00EF02BB /* main.m in Sources */,
 				52BA03391A838FFB00EF02BB /* AppDelegate.m in Sources */,
+				52BA035A1A8413E600EF02BB /* ToDoList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +416,7 @@
 				52BA03541A838FFB00EF02BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52BA03551A838FFB00EF02BB /* Build configuration list for PBXNativeTarget "HomeWork3Tests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +425,7 @@
 				52BA03571A838FFB00EF02BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
